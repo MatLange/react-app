@@ -1,9 +1,15 @@
+import Map from './Map'
 import logo from './logo.svg';
+import { Helmet } from "react-helmet";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+        <Map />
+  </div>
+  );
+/*     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,8 +24,8 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
-  );
+    </div> 
+  );*/
 }
 
 export default App;
